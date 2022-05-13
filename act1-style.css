@@ -1,0 +1,49 @@
+.flex-nav {
+    display: flex;
+    flex-flow: row wrap;
+
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.flex-content {
+    display: flex;
+    flex-flow: row wrap;
+
+    border: 1px solid black;
+}
+
+.flex-side {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    flex-grow: 4;
+}
+
+
+.flex-nav > div {
+    padding: 5px;
+    margin: 10px;
+    background-color: darkgray;
+
+    border: 1px solid black;
+}
+
+.flex-side > div {
+    padding: 5px;
+    margin: 10px;
+    background-color: darkgray;
+
+    border: 1px solid black;
+}
+
+div {
+    border-collapse: collapse;
+}
