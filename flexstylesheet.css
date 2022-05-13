@@ -1,13 +1,13 @@
 .flex-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 
 .inline-flex-container {
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .bg-red {
@@ -23,7 +23,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    width: 70px;
+    width: 600px;
 }
 
 .inline-flex-container > div {
@@ -32,4 +32,15 @@
     padding: 10px;
     font-size: 25px;
     width: 70px;
+}
+
+.d1 {
+    order: 1;
+}
+.d2 {
+    order: 3;
+}
+.d3 {
+    order: 2;
+    flex-shrink: 4;
 }
