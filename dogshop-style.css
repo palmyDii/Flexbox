@@ -1,0 +1,98 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.nav div {
+    display: flex;
+    margin: 0 5px;
+}
+
+
+.promoted-pic {
+    display: flex;
+    flex-flow: row wrap;
+
+    height: 250px;
+    margin: 10px 0;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previwe-dog {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0;
+}
+.previwe-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+.previwe-img > div {
+    background-color: lightgray;
+    border: 1px solid black;
+
+    width: 20%;
+    height: 100px;
+}
+
+.article-section {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0;
+}
+.article {
+    display: flex;
+    flex-flow: row;
+
+    height: 100px;
+
+    margin: 10px;
+    border: 1px solid black;
+}
+.article .img {
+    flex-grow: 1;
+    background-color: lightgray;
+}
+.article .text {
+    flex-grow: 4;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+
+    height: 100px;
+    margin-top: 50px;
+
+    background-color: lightgray;
+    
+}
+
+.footer > div {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 5px 10px;
+    flex-basis: 45%;
+}
+
+
+
